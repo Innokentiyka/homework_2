@@ -1,0 +1,176 @@
+{
+  "protections": [
+    {
+      "object": "ВН_Линия_1",
+      "type": "МТЗ",
+      "setting_A": 1200,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "ВН_Линия_1",
+      "type": "ДЗЛ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 300
+    },
+    {
+      "object": "ВН_Линия_2",
+      "type": "МТЗ",
+      "setting_A": 1200,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "ВН_Линия_2",
+      "type": "ДЗЛ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 300
+    },
+    {
+      "object": "СН_Линия_1",
+      "type": "МТЗ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "СН_Линия_1",
+      "type": "ДЗЛ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 300
+    },
+    {
+      "object": "СН_Линия_2",
+      "type": "МТЗ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "СН_Линия_2",
+      "type": "ДЗЛ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 300
+    },
+    {
+      "object": "СН_Линия_3",
+      "type": "МТЗ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "СН_Линия_3",
+      "type": "ДЗЛ",
+      "setting_A": 2400,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 300
+    },
+    {
+      "object": "НН_Линия_1",
+      "type": "МТЗ",
+      "setting_A": 10000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "НН_Линия_1",
+      "type": "ТО",
+      "setting_A": 5000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "НН_Линия_2",
+      "type": "МТЗ",
+      "setting_A": 10000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "НН_Линия_2",
+      "type": "ТО",
+      "setting_A": 5000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "Т1",
+      "type": "ДЗТ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "Т1",
+      "type": "МТЗ",
+      "setting_A": 600,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "Т2",
+      "type": "ДЗТ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "Т2",
+      "type": "МТЗ",
+      "setting_A": 600,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 1000
+    },
+    {
+      "object": "ВН_Секция_1",
+      "type": "ДЗШ",
+      "setting_A": 1000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "ВН_Секция_2",
+      "type": "ДЗШ",
+      "setting_A": 1000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "СН_Секция_1",
+      "type": "ДЗШ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "СН_Секция_2",
+      "type": "ДЗШ",
+      "setting_A": 800,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "НН_Секция_1",
+      "type": "ДЗШ",
+      "setting_A": 5000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    },
+    {
+      "object": "НН_Секция_2",
+      "type": "ДЗШ",
+      "setting_A": 5000,
+      "fail_prob_threshold": 5,
+      "time_delay_ms": 0
+    }
+  ],
+  "global": {
+    "simulation_time_ms": 5000,
+    "max_iterations": 15
+  }
+}
