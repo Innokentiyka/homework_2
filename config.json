@@ -12,7 +12,7 @@
       "type": "ДЗЛ",
       "setting_A": 800,
       "fail_prob_threshold": 5,
-      "time_delay_ms": 300
+      "time_delay_ms": 0
     },
     {
       "object": "ВН_Линия_2",
@@ -26,7 +26,7 @@
       "type": "ДЗЛ",
       "setting_A": 800,
       "fail_prob_threshold": 5,
-      "time_delay_ms": 300
+      "time_delay_ms": 0
     },
     {
       "object": "СН_Линия_1",
@@ -40,7 +40,7 @@
       "type": "ДЗЛ",
       "setting_A": 2400,
       "fail_prob_threshold": 5,
-      "time_delay_ms": 300
+      "time_delay_ms": 0
     },
     {
       "object": "СН_Линия_2",
@@ -54,7 +54,7 @@
       "type": "ДЗЛ",
       "setting_A": 2400,
       "fail_prob_threshold": 5,
-      "time_delay_ms": 300
+      "time_delay_ms": 0
     },
     {
       "object": "СН_Линия_3",
@@ -68,7 +68,7 @@
       "type": "ДЗЛ",
       "setting_A": 2400,
       "fail_prob_threshold": 5,
-      "time_delay_ms": 300
+      "time_delay_ms": 0
     },
     {
       "object": "НН_Линия_1",
